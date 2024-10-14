@@ -20,4 +20,33 @@
             font-size: $base-size + 1px;
         }
     }
+
+    .languages {
+        .welcome {
+            margin-right: 10px;
+        }
+        .language-en {
+            margin-right: 15px;
+            margin-left: 10px;
+            cursor: pointer;
+            color: white;
+            font-weight: 500;
+            font-family:monospace;
+            text-transform: uppercase;
+            &.active {
+                color: #ff5252;
+            }
+        }
+        .language-vi {
+            cursor: pointer;
+            color: white;
+            font-weight: 500;
+            font-family:monospace;
+            text-transform: uppercase;
+            cursor: pointer;
+            &.active {
+                color: #ff5252;
+            }
+        }
+    }
 }

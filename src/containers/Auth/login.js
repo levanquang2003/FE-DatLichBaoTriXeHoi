@@ -42,8 +42,7 @@ class Login extends Component {
                 })
             }
             if(data && data.errCode === 0) {
-                //todo
-                this.props.userLoginSuccess(data.user)
+                this.props.userLoginSuccess(data.userInfo);
                 console.log("login success!")
             }
         } catch (error) {
@@ -54,7 +53,7 @@ class Login extends Component {
                     })
                 }
             }
-            console.log(error.response);
+            console.log('error', error.response)
         }
     }
 
@@ -65,7 +64,6 @@ class Login extends Component {
     }
 
     render() {
-
         return (
             <div className="login-background">
                 <div className="login-container">
@@ -128,7 +126,7 @@ const mapDispatchToProps = dispatch => {
     return {
         navigate: (path) => dispatch(push(path)),
         // userLoginFail: () => dispatch(actions.userLoginFail()),
-        userLoginSuccess: (userInfor) => dispatch(actions.userLoginSuccess(userInfor)),
+        userLoginSuccess: (userInfo) => dispatch(actions.userLoginSuccess(userInfo))
     };
 };
 

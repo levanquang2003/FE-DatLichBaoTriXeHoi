@@ -1,0 +1,94 @@
+.section-technician {
+    height: 800px;
+    .technician-container {
+        .text-technician-primary {
+            display: flex;
+            justify-content: center;
+            margin-top: 6%;
+            p {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 17px;
+                color: #e81c2e;
+            }
+        }
+
+        .text-sevice-secondary {
+            display: flex;
+            justify-content: center;
+            span {
+                font-size: 45px;
+                font-weight: 700;
+                font-family: revert;
+            }
+        }
+    
+        .technician-body {
+            height: 300px;
+            .box-image-technician {
+                width: 300px;
+                height: 200px;
+                left: 15%;
+                position: relative;
+                top: 30%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .box-title-technician {
+                width: 430px;
+                height: 400px;
+                background-color: #f6f6f6;
+                    .p1 {
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 17px;
+                        color: #e81c2e;
+                        padding-top: 30%;
+                        text-align: center;
+                    }
+                    .a1 {
+                        font-size: 30px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-family: revert;
+                        text-decoration: none;
+                        color: #000;
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        &:hover {
+                            color: #e81c2e;
+                            transition: color 0.3s ease;
+                        }
+                    }
+                    .a2 {
+                        display: flex;
+                        width: 140px;
+                        height: 50px;
+                        background-color: #fff;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 30%;
+                        text-decoration: none;
+                        color: #e81c2e;
+                        margin-top: 20px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: #e81c2e;
+                            transition: background-color 2s ease;
+                            color: #fff;
+                        }
+                        span {
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-family: revert;
+                        }
+                    }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.section-blog {
+    height: 800px;
+    .blog-container {
+        .text-blog-primary {
+            display: flex;
+            justify-content: center;
+            p {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 17px;
+                color: #e81c2e;
+            }
+        }
+
+        .text-blog-secondary {
+            display: flex;
+            justify-content: center;
+            span {
+                font-size: 45px;
+                font-weight: 700;
+                font-family: revert;
+            }
+        }
+    
+        .blog-body {
+            height: 300px;
+            .box-image-blog {
+                width: 300px;
+                height: 200px;
+                left: 15%;
+                position: relative;
+                top: 30%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .box-title-blog {
+                width: 430px;
+                height: 400px;
+                background-color: #f6f6f6;
+                    .p1 {
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 17px;
+                        color: #1c1c1c;
+                        padding-left: 4%;
+                        padding-top: 30%;
+                        text-align: center;
+                        margin-bottom: 70px;
+                        height: 30px;
+                        cursor: pointer;
+                    }
+                    .a1-blog {
+                        font-weight: 400;
+                        font-family: revert;
+                        text-decoration: none;
+                        color: #000;
+                        display: inline-block;
+                        vertical-align: middle;
+                        text-align: center;
+                        font-size: 22px;
+                        cursor: pointer;
+                        &:hover {
+                            color: #e81c2e;
+                            transition: color 0.3s ease;
+                        }
+                    }
+                    .a2 {
+                        display: flex;
+                        width: 140px;
+                        height: 50px;
+                        background-color: #fff;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 30%;
+                        text-decoration: none;
+                        color: #e81c2e;
+                        margin-top: 20px;
+                        
+                        cursor: pointer;
+                        &:hover {
+                            background-color: #e81c2e;
+                            transition: background-color 2s ease;
+                            color: #fff;
+                        }
+                        span {
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-family: revert;
+                        }
+                    }
+                
+            }
+        }
+    }
+}
